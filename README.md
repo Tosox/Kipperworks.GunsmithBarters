@@ -85,7 +85,9 @@ The following barters are added.
 
 ## Installation
 
-Drop the `Kipperworks.GunsmithBarters` folder into your SPT server's `user/mods/` directory.
+1. Open the Kipperworks.GunsmithBarters-v{version}.zip file 
+2. Drag the SPT folder into your root SPT installation directory.
+3. (When updating) Overwrite any existing files if prompted. 
 
 ## Configuration
 
@@ -114,3 +116,14 @@ dotnet build -c Release
 ```
 
 The output is written to `bin/Release/Kipperworks.GunsmithBarters/`. A release ZIP is automatically created at `bin/Release/Kipperworks.GunsmithBarters-v{version}.zip` — this is the uploadable asset for the hub. Users extract it into their `user/mods/` directory.
+
+## GitHub Releases
+
+This repository includes a GitHub Actions workflow that builds and publishes a release automatically when a pull request that changes `Kipperworks.GunsmithBarters.csproj` is merged into `main`.
+
+### Publish a release
+
+1. Update `<Version>` in `Kipperworks.GunsmithBarters.csproj`.
+2. Open and merge a pull request into `main`.
+
+After the pull request is merged, the workflow reads the project version, creates a matching git tag, builds the Release configuration, and uploads `bin/Release/Kipperworks.GunsmithBarters-v{version}.zip` to a GitHub Release. This only runs for pull requests that change `Kipperworks.GunsmithBarters.csproj`. If the matching tag already exists, the workflow skips creating a duplicate release.

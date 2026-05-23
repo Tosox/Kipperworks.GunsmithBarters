@@ -34,7 +34,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(2)
                 .AddBarterCost(ramStick, 1)
                 .AddLoyaltyLevel(1)
-                .Export(TraderIds.Jaeger, questName);
+                .Export(TraderIds.JAEGER, questName);
 
             var ncStarTacticalBlueLaser = "5cc9c20cd7f00c001336c65d";
             var hotrod = "5751496424597720a27126da";
@@ -44,7 +44,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(hotrod, 1)
                 .AddLoyaltyLevel(1)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
         }
     }
 
@@ -61,7 +61,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(3)
                 .AddBarterCost(flatScrewdriver, 2)
                 .AddLoyaltyLevel(1)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
         }
     }
 
@@ -85,7 +85,7 @@ public class GunsmithBarterHelper(
                 .AddBarterCost(survLSurvivorLighter, 1)
                 .AddBarterCost(crickentlighter, 1)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Jaeger, questName);
+                .Export(TraderIds.JAEGER, questName);
 
             var vomzPiladRiflescope = "5dff772da3651922b360bf91";
             var bottleOfWater = "5448fee04bdc2dbc018b4567";
@@ -95,7 +95,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(bottleOfWater, 2)
                 .AddLoyaltyLevel(1)
-                .Export(TraderIds.Jaeger, questName);
+                .Export(TraderIds.JAEGER, questName);
 
             var leapersScopeMount = "5dff77c759400025ea5150cf";
             var hawkGunpowder = "5d6fc87386f77449db3db94e";
@@ -105,7 +105,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(hawkGunpowder, 1)
                 .AddLoyaltyLevel(1)
-                .Export(TraderIds.Jaeger, questName);
+                .Export(TraderIds.JAEGER, questName);
 
             var sksTapcoIntrafuseBufferTube = "5afd7e095acfc40017541f61";
             var pineappleJuice = "544fb62a4bdc2dfb738b4568";
@@ -115,7 +115,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(pineappleJuice, 1)
                 .AddLoyaltyLevel(1)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
 
             var sksTapcoIntrafuseSawStylePistolGrip = "5afd7e445acfc4001637e35a";
             var wilstonCigarette = "573476f124597737e04bf328";
@@ -125,7 +125,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(wilstonCigarette, 1)
                 .AddLoyaltyLevel(1)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
 
             var sksHexagonSoundSupressor = "593d490386f7745ee97a1555";
             var electricMotor = "5d1b2fa286f77425227d1674";
@@ -135,7 +135,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(electricMotor, 1)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
         }
     }
 
@@ -154,7 +154,7 @@ public class GunsmithBarterHelper(
                 .AddBarterCost(strikeCigaretts, 2)
                 .AddBarterCost(wilstonCigarettes, 2)
                 .AddLoyaltyLevel(1)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
 
             var cylinderTwelveGagueMuzzleAdapter = "5c0111ab0db834001966914d";
             var saury = "5673de654bdc2d180f8b456d";
@@ -164,7 +164,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(2)
                 .AddBarterCost(saury, 1)
                 .AddLoyaltyLevel(1)
-                .Export(TraderIds.Jaeger, questName);
+                .Export(TraderIds.JAEGER, questName);
 
             var gkTwoMuzzleBreak = "58272d7f2459774f6311ddfd";
             var electronicComponents = "6389c70ca33d8c4cdf4932c6";
@@ -176,7 +176,7 @@ public class GunsmithBarterHelper(
                 .AddBarterCost(electronicComponents, 1)
                 .AddBarterCost(printedCircuitBoard, 1)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Jaeger, questName);
+                .Export(TraderIds.JAEGER, questName);
         }
     }
 
@@ -193,7 +193,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(woodenClock, 1)
                 .AddLoyaltyLevel(4)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
 
             var akTapcoSawStyleblackPistolGrip = "5947f92f86f77427344a76b1";
             var capacitors = "5c06782b86f77426df5407d2";
@@ -203,7 +203,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(capacitors, 3)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
 
             var akMagpulPmagMagazine = "59d6272486f77466146386ff";
             var herring = "57347d9c245977448b40fa85";
@@ -213,7 +213,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(4)
                 .AddBarterCost(herring, 1)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
 
             var akMagpulMoeAkmHandguardFde = "57cffd8224597763b03fc609";
             var bottleOfVodka = "5d40407c86f774318526545a";
@@ -223,7 +223,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(bottleOfVodka, 1)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
 
             var akAkedemiaBastionDustCover = "5d2c76ed48f03532f2136169";
             var pevkoLightBeer = "62a09f32621468534a797acb";
@@ -233,7 +233,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(pevkoLightBeer, 1)
                 .AddLoyaltyLevel(1)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
 
             var trijiconTA51SightMount = "59db7eed86f77461f8380365";
             fluentAssortCreator
@@ -242,7 +242,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(capacitors, 1)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
 
             var trijiconAcogTA11D = "59db7e1086f77448be30ddf3";
             var ssdDrive = "590c392f86f77444754deb29";
@@ -252,7 +252,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(ssdDrive, 1)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
         }
     }
 
@@ -271,7 +271,7 @@ public class GunsmithBarterHelper(
                 .AddBarterCost(nails, 1)
                 .AddBarterCost(powerbank, 1)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
 
             var magpulMoeSlCarbineLenghtMlokHandguard = "5c78f2792e221600106f4683";
             var wires = "5c06779c86f77426e00dd782";
@@ -283,7 +283,7 @@ public class GunsmithBarterHelper(
                 .AddBarterCost(wires, 1)
                 .AddBarterCost(roundPliers, 1)
                 .AddLoyaltyLevel(1)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
 
             var windhamGasBlock = "56ea8d2fd2720b7c698b4570";
             var usbAdapter = "5909e99886f7740c983b9984";
@@ -295,7 +295,7 @@ public class GunsmithBarterHelper(
                 .AddBarterCost(usbAdapter, 1)
                 .AddBarterCost(rechargableBattery, 1)
                 .AddLoyaltyLevel(1)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
 
             var danielDefenceVerticalForegripBlack = "651a8bf3a8520e48047bf708";
             var brokenLcd = "5d1b309586f77425227d1676";
@@ -305,7 +305,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(brokenLcd, 1)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
 
             var surefireWarCompFlashHider = "5c6d710d2e22165df16b81e7";
             var cyclonRechargableBattery = "5e2aee0a86f774755a234b62";
@@ -315,7 +315,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(cyclonRechargableBattery, 2)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
         }
     }
 
@@ -333,7 +333,7 @@ public class GunsmithBarterHelper(
                 .AddBarterCost(weaponParts, 1)
                 .AddBuyRestriction(2)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Prapor, questName);
+                .Export(TraderIds.PRAPOR, questName);
         }
 
         if (_config.AddAttachmentBarters)
@@ -348,7 +348,7 @@ public class GunsmithBarterHelper(
                 .AddBarterCost(alyonkaChocolate, 1)
                 .AddBarterCost(slickersChocolate, 1)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
 
             var ak12Magazine = "5bed61680db834001d2c45ab";
             var pliers = "590c2b4386f77425357b6123";
@@ -358,7 +358,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(pliers, 2)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Prapor, questName);
+                .Export(TraderIds.PRAPOR, questName);
 
             var zenitKleschIksIrIlluminator = "5a5f1ce64f39f90b401987bc";
             var phaseControlRelay = "5d1b313086f77425227d1678";
@@ -368,7 +368,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(2)
                 .AddBarterCost(phaseControlRelay, 1)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
         }
     }
 
@@ -385,7 +385,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(sparkPlug, 1)
                 .AddLoyaltyLevel(1)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
 
             var p226ThreadedBarrel = "587de4282459771bca0ec90b";
             var gPhone = "56742c324bdc2d150f8b456d";
@@ -395,7 +395,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(gPhone, 1)
                 .AddLoyaltyLevel(1)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
         }
     }
 
@@ -413,7 +413,7 @@ public class GunsmithBarterHelper(
                 .AddBarterCost(weaponParts, 2)
                 .AddBuyRestriction(1)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Prapor, questName);
+                .Export(TraderIds.PRAPOR, questName);
         }
 
         if (_config.AddAttachmentBarters)
@@ -430,7 +430,7 @@ public class GunsmithBarterHelper(
                 .AddBarterCost(bolts, 1)
                 .AddBarterCost(largeBeefStew, 1)
                 .AddLoyaltyLevel(1)
-                .Export(TraderIds.Prapor, questName);
+                .Export(TraderIds.PRAPOR, questName);
 
             var ak100ZenitPtLock = "5ac78eaf5acfc4001926317a";
             var powerCord = "59e36c6f86f774176c10a2a7";
@@ -440,7 +440,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(powerCord, 1)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
 
             var akZenitPt1KlassikaStock = "5b222d405acfc400153af4fe";
             var analogThermometer = "5d1b32c186f774252167a530";
@@ -450,7 +450,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(analogThermometer, 1)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
         }
     }
 
@@ -470,7 +470,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddQuestRestriction(vitaminsPartTwoQuest)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
         }
 
         if (_config.AddAttachmentBarters)
@@ -483,7 +483,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(2)
                 .AddBarterCost(drLupoCoffeeBeans, 1)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
 
             var coltCarbineBufferTube = "5649be884bdc2d79388b4577";
             fluentAssortCreator
@@ -492,7 +492,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(lightBulb, 2)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
         }
     }
 
@@ -509,7 +509,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(awl, 1)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
         }
     }
 
@@ -526,7 +526,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(2)
                 .AddBarterCost(metalSpareParts, 1)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
 
             var kacFoldingRearSight = "5c1780312e221602b66cc189";
             var zibboLighter = "56742c2e4bdc2d95058b456d";
@@ -536,7 +536,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(zibboLighter, 1)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
 
             var kacFoldingFrontSight = "5c17804b2e2216152006c02f";
             fluentAssortCreator
@@ -545,7 +545,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(zibboLighter, 1)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
 
             var firearmsSkeletonizedStyle01PistolGrip = "6113c3586c780c1e710c90bc";
             var beardOil = "5bc9b9ecd4351e3bac122519";
@@ -557,7 +557,7 @@ public class GunsmithBarterHelper(
                 .AddBarterCost(beardOil, 1)
                 .AddBarterCost(chainlet, 1)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
         }
     }
 
@@ -577,7 +577,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddQuestRestriction(wetJobPartThree)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
         }
 
         if (_config.AddAttachmentBarters)
@@ -590,7 +590,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(2)
                 .AddBarterCost(rechargableBattery, 1)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
 
             var magpulMoePistolGrip = "5d15cf3bd7ad1a67e71518b2";
             var powerSupplyUnit = "57347c2e24597744902c94a1";
@@ -600,7 +600,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(powerSupplyUnit, 1)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
 
             var magpulUbrGen2StockFde = "5947eab886f77475961d96c5";
             var workingLcd = "5d1b304286f774253763a528";
@@ -610,7 +610,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(workingLcd, 1)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
 
             var magpulRvgForegripFde = "5fce0cf655375d18a253eff0";
             var screwdriver = "590c2d8786f774245b1f03f3";
@@ -622,7 +622,7 @@ public class GunsmithBarterHelper(
                 .AddBarterCost(screwdriver, 1)
                 .AddBarterCost(ductTape, 3)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
 
             var l3HarrisLa5bPeqTacticalDevice = "5c06595c0db834001a66af6c";
             var electronicComponents = "6389c70ca33d8c4cdf4932c6";
@@ -632,7 +632,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(electronicComponents, 1)
                 .AddLoyaltyLevel(4)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
 
             var magpulFlipUpRearSightFde = "5c18b9192e2216398b5a8104";
             var nippers = "5d40425986f7743185265461";
@@ -642,7 +642,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(nippers, 1)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
 
             var magpulFlipUpFrontSightFde = "5c18b90d2e2216152142466b";
             fluentAssortCreator
@@ -651,7 +651,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(nippers, 1)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
 
             var eoTechExpHolographicSightTan = "558022b54bdc2dac148b458d";
             var toolset = "590c2e1186f77425357b6124";
@@ -661,7 +661,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(toolset, 1)
                 .AddLoyaltyLevel(4)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
         }
     }
 
@@ -679,7 +679,7 @@ public class GunsmithBarterHelper(
                 .AddBarterCost(kekTape, 4)
                 .AddBuyRestriction(1)
                 .AddLoyaltyLevel(4)
-                .Export(TraderIds.Prapor, questName);
+                .Export(TraderIds.PRAPOR, questName);
         }
 
         if (_config.AddAttachmentBarters)
@@ -692,7 +692,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(2)
                 .AddBarterCost(strikeCigarettes, 2)
                 .AddLoyaltyLevel(1)
-                .Export(TraderIds.Prapor, questName);
+                .Export(TraderIds.PRAPOR, questName);
 
             var valZenitB3RingMount = "57a3459f245977764a01f703";
             var goldChain = "5734758f24597738025ee253";
@@ -702,7 +702,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(goldChain, 1)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
         }
     }
 
@@ -727,7 +727,7 @@ public class GunsmithBarterHelper(
                 .AddBarterCost(strikeCigarettes, 2)
                 .AddBuyRestriction(1)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
         }
 
         if (_config.AddAttachmentBarters)
@@ -739,7 +739,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(2)
                 .AddBarterCost(strikeCigarettes, 3)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
 
             var rpk16BufferTube = "5beec8b20db834001961942a";
             var pliers = "590c2b4386f77425357b6123";
@@ -749,7 +749,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(pliers, 2)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
 
             var akZenithB10MHandguard = "5648b4534bdc2d3d1c8b4580";
             var dvdDrive = "5734781f24597737e04bf32a";
@@ -761,7 +761,7 @@ public class GunsmithBarterHelper(
                 .AddBarterCost(dvdDrive, 1)
                 .AddBarterCost(nails, 1)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
 
             var magpulAfgTacticalForegripOliveDrab = "588226ef24597767af46e39c";
             var phaseControlRelay = "5d1b313086f77425227d1678";
@@ -771,7 +771,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(phaseControlRelay, 2)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
 
             var zenitKlesch2UTacticalFlashlight = "5b3a337e5acfc4704b4a19a0";
             var lightBulb = "5d1b392c86f77425243e98fe";
@@ -781,7 +781,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(lightBulb, 2)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
 
             var akCssKnurledChargingHandle = "6130ca3fd92c473c77020dbd";
             var blendTea = "5bc9be8fd4351e00334cae6e";
@@ -791,7 +791,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(blendTea, 1)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
 
             var akZenitB33DustCover = "5649af884bdc2d1b2b8b4589";
             var toolset = "590c2e1186f77425357b6124";
@@ -801,7 +801,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(toolset, 1)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
         }
     }
 
@@ -817,7 +817,7 @@ public class GunsmithBarterHelper(
                 .AddBarterCost(canOfGreenPeas, 4)
                 .AddBuyRestriction(2)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Prapor, questName);
+                .Export(TraderIds.PRAPOR, questName);
         }
 
         if (_config.AddAttachmentBarters)
@@ -830,7 +830,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(2)
                 .AddBarterCost(tarkerDriedMeat, 2)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
 
             var magpulMlokAfgTacticalForegripBlack = "57cffb66245977632f391a99";
             var ductTape = "57347c1124597737fb1379e3";
@@ -840,7 +840,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(3)
                 .AddBarterCost(ductTape, 3)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
 
             var magpulZhukovSStock = "5b0e794b5acfc47a877359b2";
             var geigerMullerCounter = "5672cb724bdc2dc2088b456b";
@@ -850,7 +850,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(geigerMullerCounter, 2)
                 .AddLoyaltyLevel(4)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
 
             var akMagpulMoePistolGrip = "5b30ac585acfc433000eb79c";
             var powerCord = "59e36c6f86f774176c10a2a7";
@@ -860,7 +860,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(powerCord, 2)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
 
             var eoTechHss1HybridSight = "5c07dd120db834001c39092d";
             var sparkPlug = "590a3c0a86f774385a33c450";
@@ -872,7 +872,7 @@ public class GunsmithBarterHelper(
                 .AddBarterCost(sparkPlug, 2)
                 .AddBarterCost(workingLcd, 1)
                 .AddLoyaltyLevel(4)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
         }
     }
 
@@ -889,7 +889,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(2)
                 .AddBarterCost(mreRationPack, 1)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Jaeger, questName);
+                .Export(TraderIds.JAEGER, questName);
 
             var magpulUbrGen2StockBlack = "5947e98b86f774778f1448bc";
             var bleach = "59e3556c86f7741776641ac2";
@@ -901,7 +901,7 @@ public class GunsmithBarterHelper(
                 .AddBarterCost(bleach, 1)
                 .AddBarterCost(soap, 1)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
 
             var svdsRotor43ThreadAdapter = "5e01e9e273d8eb11426f5bc3";
             var wd40Small = "590c5bbd86f774785762df04";
@@ -911,7 +911,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(wd40Small, 2)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
 
             var rotor43SoundSupressor762x54R = "5e01ea19e9dc277128008c0b";
             var book = "5bc9c049d4351e44f824d360";
@@ -921,7 +921,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(book, 1)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
 
             var marchTacticalFFP30mmRiflescope = "57c5ac0824597754771e88a9";
             var sugar = "59e3577886f774176a362503";
@@ -931,7 +931,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(sugar, 3)
                 .AddLoyaltyLevel(4)
-                .Export(TraderIds.Jaeger, questName);
+                .Export(TraderIds.JAEGER, questName);
         }
     }
 
@@ -948,7 +948,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(2)
                 .AddBarterCost(huntingMatches, 2)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
 
             var aimpointMicroT1ReflexSight = "58d399e486f77442e0016fe7";
             var zibboLighter = "56742c2e4bdc2d95058b456d";
@@ -958,7 +958,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(3)
                 .AddBarterCost(zibboLighter, 2)
                 .AddLoyaltyLevel(2)
-                .Export(TraderIds.Peacekeeper, questName);
+                .Export(TraderIds.PEACEKEEPER, questName);
 
             var aimpointMicroStandardMount = "58d39d3d86f77445bb794ae7";
             var crickentlighter = "56742c284bdc2d98058b456d";
@@ -968,7 +968,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(1)
                 .AddBarterCost(crickentlighter, 1)
                 .AddLoyaltyLevel(1)
-                .Export(TraderIds.Mechanic, questName);
+                .Export(TraderIds.MECHANIC, questName);
 
             var holosunLs321TacticalDevice = "57fd23e32459772d0805bcf1";
             var tarCola = "57514643245977207f2c2d09";
@@ -978,7 +978,7 @@ public class GunsmithBarterHelper(
                 .AddBuyRestriction(2)
                 .AddBarterCost(tarCola, 2)
                 .AddLoyaltyLevel(3)
-                .Export(TraderIds.Skier, questName);
+                .Export(TraderIds.SKIER, questName);
         }
     }
 }

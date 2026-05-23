@@ -1,0 +1,103 @@
+name: Release
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - Kipperworks.GunsmithBarters.csproj
+    types:
+      - closed
+
+permissions:
+  contents: write
+
+jobs:
+  build-release:
+    if: github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 9.0.x
+
+      - name: Resolve release version
+        id: version
+        shell: pwsh
+        run: |
+          [xml]$project = Get-Content 'Kipperworks.GunsmithBarters.csproj'
+          $projectVersion = $project.Project.PropertyGroup.Version
+
+          if ([string]::IsNullOrWhiteSpace($projectVersion))
+          {
+              throw 'The project version could not be read from Kipperworks.GunsmithBarters.csproj.'
+          }
+
+          $tagName = "v$projectVersion"
+
+          $zipPath = "bin/Release/Kipperworks.GunsmithBarters-v$projectVersion.zip"
+
+          "version=$projectVersion" >> $env:GITHUB_OUTPUT
+          "tag_name=$tagName" >> $env:GITHUB_OUTPUT
+          "zip_path=$zipPath" >> $env:GITHUB_OUTPUT
+
+      - name: Check whether tag already exists
+        id: tag-check
+        shell: pwsh
+        run: |
+          $tagName = '${{ steps.version.outputs.tag_name }}'
+          $tagExists = git tag --list $tagName
+          if ([string]::IsNullOrWhiteSpace($tagExists))
+          {
+              "exists=false" >> $env:GITHUB_OUTPUT
+          }
+          else
+          {
+              "exists=true" >> $env:GITHUB_OUTPUT
+          }
+
+      - name: Restore
+        if: steps.tag-check.outputs.exists == 'false'
+        run: dotnet restore Kipperworks.GunsmithBarters.csproj
+
+      - name: Build release package
+        if: steps.tag-check.outputs.exists == 'false'
+        run: dotnet build Kipperworks.GunsmithBarters.csproj -c Release --no-restore --nologo --verbosity minimal
+
+      - name: Verify release asset
+        if: steps.tag-check.outputs.exists == 'false'
+        shell: pwsh
+        run: |
+          $zipPath = '${{ steps.version.outputs.zip_path }}'
+
+          if (-not (Test-Path $zipPath))
+          {
+              throw "Expected release asset was not created: $zipPath"
+          }
+
+      - name: Create version tag
+        if: steps.tag-check.outputs.exists == 'false'
+        shell: pwsh
+        run: |
+          $tagName = '${{ steps.version.outputs.tag_name }}'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git tag $tagName
+          git push origin $tagName
+
+      - name: Publish GitHub release
+        if: steps.tag-check.outputs.exists == 'false'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.tag_name }}
+          name: ${{ steps.version.outputs.tag_name }}
+          generate_release_notes: true
+          prerelease: ${{ contains(steps.version.outputs.version, '-') }}
+          files: ${{ steps.version.outputs.zip_path }}
