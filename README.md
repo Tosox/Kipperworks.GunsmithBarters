@@ -85,7 +85,9 @@ The following barters are added.
 
 ## Installation
 
-Drop the `Kipperworks.GunsmithBarters` folder into your SPT server's `user/mods/` directory.
+1. Open the Kipperworks.GunsmithBarters-v{version}.zip file 
+2. Drag the SPT folder into your root SPT installation directory.
+3. (When updating) Overwrite any existing files if prompted. 
 
 ## Configuration
 
