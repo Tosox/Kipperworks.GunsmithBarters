@@ -30,9 +30,28 @@ The following barters are added.
 | Gunsmith - Part 7 | Daniel Defense Enhanced M-LOK Vertical Foregrip (Black) | 1xBroken LCD | Peacekeeper LVL2 |  |
 | Gunsmith - Part 7 | AR-15 SureFire WarComp 5.56x45 flash hider | 2xCyclon rechargeable battery | Skier LVL2 |  |
 | Gunsmith - Part 8 | Kalashnikov AKS-74N 5.45x39 assault rifle | 2xSoap, 1xWeapon parts | Prapor LVL2 |  |
+| Gunsmith - Part 8 | AKS-74/AKS-74U Zenit PT Lock | 1xFlat screwdriver (Long), 1xLight bulb | Skier LVL2 |  |
+| Gunsmith - Part 8 | AK Zenit PT-3 "Klassika" stock | 1xBolts, 1xCan of Majaica coffee beans | Skier LVL3 |  |
+| Gunsmith - Part 8 | AK Zenit RK-3 pistol grip (Black) | 1xPower cord, 1xMarlboro cigarettes | Skier LVL3 | Missing Cargo |
+| Gunsmith - Part 8 | AK Zenit B-33 dust cover | 1xToolset | Skier LVL3 |  |
+| Gunsmith - Part 8 | AK Zenit DTK-1 muzzle brake | 1xPiece of plexiglass | Skier LVL2 |  |
+| Gunsmith - Part 8 | Zenit Klesch-2IKS IR illuminator with laser | 1xPhase control relay | Skier LVL2 |  |
 | Gunsmith - Part 8 | Zenit RK-0 tactical foregrip | 1xAlyonka chocolate bar, 1xSlickers chocolate bar | Skier LVL3 |  |
 | Gunsmith - Part 8 | AK-12 5.45x39 30-round magazine | 2xPliers | Prapor LVL3 |  |
-| Gunsmith - Part 8 | Zenit Klesch-2IKS IR illuminator with laser | 1xPhase control relay | Skier LVL2 |  |
+| Gunsmith - Old Friend's Request: Glock 17 | Glock 17 9x19 (default preset) | 1xTar Cola | Mechanic LVL1 |  |
+| Gunsmith - Old Friend's Request: Glock 17 | Glock 9x19 Double Diamond 114mm threaded barrel | 1xTube of Poxeram cold welding | Mechanic LVL2 |  |
+| Gunsmith - Old Friend's Request: Glock 17 | Glock 9x19 Double Diamond thread protector | 1xApollo Soyuz cigarettes | Mechanic LVL1 |  |
+| Gunsmith - Old Friend's Request: Glock 17 | Glock Pachmayr Tactical Grip Glove | 1xPliers, 1xMarlboro cigarettes | Mechanic LVL1 |  |
+| Gunsmith - Old Friend's Request: Glock 17 | Glock 9x19 Magpul PMAG GL9 21-round magazine | 1xPliers, 1xDVD drive | Mechanic LVL1 |  |
+| Gunsmith - Old Friend's Request: Orsis T-5000 | Orsis T-5000 .308 Win (default preset) | 1xSAS drive, 1xDamaged hard drive | Skier LVL2 | Lend-Lease - Part 1 |
+| Gunsmith - Old Friend's Request: Orsis T-5000 | Harris S-BRM 6-9 inch bipod | 1xPrinted circuit board | Skier LVL2 |  |
+| Gunsmith - Old Friend's Request: PP19 | PP-19-01 Vityaz-SN dust cover | 1xInsulating tape | Prapor LVL1 |  |
+| Gunsmith - Old Friend's Request: PP19 | Aimpoint Micro Spacer High | 1xMarlboro cigarettes | Peacekeeper LVL1 |  |
+| Gunsmith - Old Friend's Request: PP19 | PP-19-01 Vityaz 9x19 sound suppressor | 1xPrinter paper | Mechanic LVL2 |  |
+| Gunsmith - Old Friend's Request: PP19 | PP-19-01 Vityaz SAG MK1 M-LOK handguard with gas tube | 1xUltraviolet lamp | Mechanic LVL2 |  |
+| Gunsmith - Old Friend's Request: PP19 | Zenit RK-6 tactical foregrip | 2xDuct tape | Skier LVL1 |  |
+| Gunsmith - Old Friend's Request: PP19 | L3Harris AN/PEQ-15 tactical device (Tan) | 1xUSB adapter, 1xCan of Majaica coffee beans | Peacekeeper LVL3 |  |
+| Gunsmith - Old Friend's Request: PP19 | Zenit Klesch-2P flashlight with laser | 1xCrickent lighter, 1xStrike Cigarettes | Skier LVL2 |  |
 | Gunsmith - Part 9 | P226 TJ's Custom 9x19 compensator | 1xSpark plug | Mechanic LVL1 |  |
 | Gunsmith - Part 9 | P226 9x19 112mm threaded barrel | 1xBroken GPhone smartphone | Peacekeeper LVL1 |  |
 | Gunsmith - Part 10 | Kalashnikov AK-105 5.45x39 assault rifle | 1xGunpowder "Hawk", 2xWeapon parts | Prapor LVL3 |  |
@@ -66,7 +85,6 @@ The following barters are added.
 | Gunsmith - Part 17 | Magpul AFG tactical foregrip (Olive Drab) | 2xPhase control relay | Mechanic LVL3 |  |
 | Gunsmith - Part 17 | Zenit Klesch-2U tactical flashlight | 2xLight bulb | Mechanic LVL3 |  |
 | Gunsmith - Part 17 | AK CSS knurled charging handle | 1x42 Signature Blend English Tea | Skier LVL3 |  |
-| Gunsmith - Part 17 | AK Zenit B-33 dust cover | 1xToolset | Skier LVL3 |  |
 | Gunsmith - Part 18 | Kalashnikov AKMN 7.62x39 assault rifle | 4xCan of green peas | Prapor LVL3 |  |
 | Gunsmith - Part 18 | AK Magpul MOE AKM handguard (Black) | 2xPack of Tarker dried meat | Mechanic LVL3 |  |
 | Gunsmith - Part 18 | Magpul M-LOK AFG tactical foregrip (Black) | 3xDuct tape | Skier LVL3 |  |
@@ -102,6 +120,40 @@ Edit `config/config.json` to toggle features:
 
 - **addAttachmentBarters** — adds barter trades for individual attachments needed for gunsmith quests
 - **addGunBarters** — adds barter trades for base guns needed for gunsmith quests
+
+## Adding a New Gun Preset
+
+When adding a new base gun barter, use `Tools/Export-GunPreset.ps1` to extract the default preset from the SPT database and generate a ready-to-paste C# class.
+
+### Prerequisites
+
+The SPT database files must be present under `GunbuilderItems/database/`:
+- `GunbuilderItems/database/globals.json`
+- `GunbuilderItems/database/templates/items.json`
+
+### Usage
+
+Run the script from the repository root, providing the gun's root **template ID** and the desired C# class name:
+
+```powershell
+.\Tools\Export-GunPreset.ps1 -GunTemplateId "<templateId>" -ClassName "<ClassName>"
+```
+
+The template ID is the `_tpl` of the root gun item — found in `globals.json` under `ItemPresets` or in the SPT item database.
+
+**Example — Glock 17:**
+
+```powershell
+.\Tools\Export-GunPreset.ps1 -GunTemplateId "5a7ae0c351dfba0017554310" -ClassName "Glock17DefaultPreset"
+```
+
+The script:
+1. Locates the matching default preset in `globals.json`
+2. Remaps all instance IDs to fresh MongoIds
+3. Detects `Repairable`, `FireMode`, `Foldable`, and `UpdSight` properties automatically
+4. Prints a complete C# class to the console, ready to save as `Features/Guns/Presets/<ClassName>.cs`
+
+After saving the generated file, wire it into `Features/Guns/GunBuilder.cs` by adding a backing field and a `Get<GunName>Default()` accessor, then call that accessor in the appropriate barter method in `Features/GunsmithBarterHelper.cs`.
 
 ## Building from Source
 

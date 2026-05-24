@@ -40,6 +40,9 @@ public class GunsmithBarters(
         gunsmithBarterHelper.AddGunsmithSixBarters();
         gunsmithBarterHelper.AddGunsmithSevenBarters();
         gunsmithBarterHelper.AddGunsmithEightBarters();
+        gunsmithBarterHelper.AddGunsmithOldFriendsRequestGlock17Barters();
+        gunsmithBarterHelper.AddGunsmithOldFriendsRequestOrsisT5000Barters();
+        gunsmithBarterHelper.AddGunsmithOldFriendsRequestPP19Barters();
         gunsmithBarterHelper.AddGunsmithNineBarters();
         gunsmithBarterHelper.AddGunsmithTenBarters();
         gunsmithBarterHelper.AddGunsmithElevenBarters();
